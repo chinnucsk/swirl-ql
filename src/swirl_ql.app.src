@@ -1,0 +1,10 @@
+{application, swirl_ql, [
+  {description, "swirl query language"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
